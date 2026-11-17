@@ -9,16 +9,29 @@ margin: 0 auto;
 padding: 24px;
 }
 
+
 .task-card {
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 12px 16px;
-margin-bottom: 10px;
-border-radius: 8px;
-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
-list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 16px 20px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  list-style: none;
 }
+
+.urgent {
+  color: #e63946;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.priority {
+  color: #8faac5;
+  font-size: 14px;
+}
+
 .priority-high { border-left: 4px solid #e63946; }
 
 .priority-medium { border-left: 4px solid #f4a261; }
